@@ -21,5 +21,5 @@ function default_array(value=[]){
 }
 // default parameter for object 
 function default_object(value2={}){
-    
+
 }
