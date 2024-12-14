@@ -14,3 +14,6 @@
  console.log(name_mother,father_name)
 
 //  array  Destructure
+let array_name=[22,44,66,77]
+let [x,y]=array_name
+console.log(x,y)
