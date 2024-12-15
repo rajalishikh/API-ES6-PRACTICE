@@ -1,11 +1,6 @@
 let two_array_add=(x,y)=>{
-    let two_array=[]
-    for(let first of x){
-        two_array.push(first)
-    }
-    for(let second of y){
-        two_array.push(second)
-    }
+    let two_array=[...x,...y]
+    
    let big_number=Math.max(...two_array)
    return big_number
 
