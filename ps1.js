@@ -8,4 +8,4 @@ let data={
     },
     
 }
-console.log(data.sophia.study[1])
+console.log(data.sophia.study[1].location)
